@@ -1,0 +1,36 @@
+name: Continue Config
+version: 0.0.1
+models:
+  - name: Claude 3.5 Sonnet
+    provider: anthropic
+    model: claude-3-5-sonnet-latest
+    apiKey: XXX-notakey-XXX
+    roles:
+      - chat
+  - name: Codestral
+    provider: mistral
+    model: codestral-latest
+    apiKey: XXX-notakey-XXX
+    roles:
+      - chat
+  - name: Codestral
+    provider: mistral
+    model: codestral-latest
+    apiKey: XXX-notakey-XXX
+    roles:
+      - autocomplete
+context:
+  - uses: continuedev/code-context
+    with: {}
+  - uses: continuedev/docs-context
+    with: {}
+  - uses: continuedev/diff-context
+    with: {}
+  - uses: continuedev/terminal-context
+    with: {}
+  - uses: continuedev/problems-context
+    with: {}
+  - uses: continuedev/folder-context
+    with: {}
+  - uses: continuedev/codebase-context
+    with: {}
