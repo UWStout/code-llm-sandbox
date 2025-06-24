@@ -1,0 +1,15 @@
+Below are some basic prompts to try. Open the empty index.html file and press ctrl+I to bring up the AI chat interface. Type in the prompt and feel free to adjust or embellish the prompt as you see fit. Press enter to send the prompt and then, once it finishes generating the code, click 'accept'.  Due to variance in AIs and inconsistencies in how each response is generated, you may find that no all prompts work, but try adjusting and sending the prompt again until you get a good result!
+
+Note: These prompts were testing using Anthropic's Claude and Minstral's Codestral LLMs.
+
+The Base webpage
+----------------
+You are an expert web developer skilled in front-end web technologies and HTML/CSS. Generate a basic webpage that employs the Bootstrap 5.3.7 library and demonstrates all the available Bootstrap components and features. Be sure to use jsdeliver as the CDN and placehold.co when you need to insert an image.
+
+Adding an Interactive Canvas
+----------------------------
+Add a canvas element to the page. In the canvas element, use JavaScript to draw a circle that follows the mouse pointer as it moves across the canvas. Make the color of the circle change randomly when you click.
+
+Adding Something Fun
+--------------------
+Add a second canvas element to the page. In this new canvas element, use JavaScript to draw a face with a smiling mouth and two eyes with pupils that follow the mouse cursor around the page. When the cursor gets closer, the mouth of the face should start to frown.
